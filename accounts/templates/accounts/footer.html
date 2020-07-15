@@ -1,5 +1,15 @@
 {% load static %}
-
+<style>
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
+</style>
 <!-- Footer -->
 <footer class="page-footer font-small special-color-dark pt-4">
 
@@ -15,13 +25,17 @@
       </li>
       <li class="list-inline-item">
 	 <a href="https://twitter.com/yogeshmbs199" class="social-icon si-rounded si-small si-linkedin" target="_blank">
-  	   <i class="icon-twiter"><img src = "{% static 'images/twitter.png' %}" height="50" width="50"></i>
+  	   <i class="icon-twiter"><img src = "{% static 'images/twitter.png' %}" height="30" width="30"></i>
 	 </a>
       </li>
       <li class="list-inline-item">
 	 <a href="https://www.linkedin.com/in/malepati-yogesh-kumar-2136b6130/" class="social-icon si-rounded si-small si-linkedin" target="_blank">
-  	   <i class="icon-linkedin"><img src = "{% static 'images/linkidin.png' %}" height="50" width="50"></i>
+  	   <i class="icon-linkedin"><img src = "{% static 'images/linkidin.png' %}" height="30" width="30"></i>
 	 </a>
+      </li>
+
+      <li class="list-inline-item">© 2020 Copyright:
+	      <a href=""> Yogesh</a>
       </li>
     </ul>
     <!-- Social buttons -->
@@ -29,11 +43,6 @@
   </div>
   <!-- Footer Elements -->
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href=""> Yogesh</a>
-  </div>
-  <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
