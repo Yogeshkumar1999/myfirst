@@ -10,3 +10,9 @@ class OrderFilter(django_filters.FilterSet):
         model = Order
         fields = '__all__'
         exclude = ['customer', 'date_created']
+
+class ProductFilter(django_filters.FilterSet):
+    class Meta:
+        model = Product
+        fileds = '__all__'
+        exclude = ['date_created', 'tags', 'description']

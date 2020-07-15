@@ -23,10 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'fl3j41a6#w9nn0vq7!62#mf68c4g#at!!i5my0t^-l7g5h%(n-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['yogesh-myfirst.herokuapp.com', '0.0.0.0:8000']
-
+ALLOWED_HOSTS = ['yogesh-myfirst.herokuapp.com', '0.0.0.0:8000', 'localhost:8888', 'localhost:8000']
+#ALLOWED_HOSTS = []
 
 # Application definition
 
